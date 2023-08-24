@@ -1,4 +1,4 @@
-import {Outlet} from 'react-router-dom';
+import {Link, Outlet} from 'react-router-dom';
 import logo from '../assets/images/logoMain.png'
 import {
     Navbar,
