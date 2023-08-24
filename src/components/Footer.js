@@ -64,7 +64,7 @@ const Footer = () => {
                 </Nav.Item>
                 </div>
             </div>
-            <div className="col-lg-12 border-top text-center text-secondary d-flex justify-content-center  flex-row">
+            <div className="col-lg-12 border-2 border-top border-secondary text-center text-secondary d-flex justify-content-center  flex-row">
             Powered by<span className="fw-bolder text-secondary"><a href="" className='nav-link text-seconday px-1'> KongoTek©</a></span>
         </div>
         </div>
