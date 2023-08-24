@@ -1,11 +1,10 @@
 const Square = (props) => {
     var content = props.content
     var url = props.url
-    var style =props.style
-    var id = props.id
+        var id = props.id
     return (
 
-        <div className={style} data-aos="fade-up" data-aos-delay="100"
+        <div className="col-lg-4"  data-aos="fade-up" data-aos-delay="100"
             id={id}>
             <img className="img-fluide rounded"
                 width={300}

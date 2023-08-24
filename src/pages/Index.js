@@ -71,11 +71,11 @@ const Index = () => {
                 </div>
                 <div className='mx-4 container row '>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima veniam rerum hic, eveniet porro cupiditate cum corrupti repudiandae sit culpa molestiae nobis consequuntur magni, quia doloremque quaerat excepturi ab! Doloremque.</p>
-                        <Square content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil et accusantium tempore voluptatum temporibus praesentium ipsum fuga" style="col-lg-4" id="img1" 
+                        <Square content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil et accusantium tempore voluptatum temporibus praesentium ipsum fuga" id="img1"
                             url={Carousel2}/>
-                        <Square content="Deleniti assumenda ullam! Corrupti nulla eum nemo obcaecati blanditiis quibusdam inventore, explicabo omnis." style="col-lg-4" id="img2"
+                        <Square content="Deleniti assumenda ullam! Corrupti nulla eum nemo obcaecati blanditiis quibusdam inventore, explicabo omnis." id="img2"
                             url={Carousel1}/>
-                        <Square content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, illo dignissimos. Consequuntur?"  style="col-lg-4" id="img3"
+                        <Square content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, illo dignissimos. Consequuntur?"  id="img3"
                             url={Carousel3}/>
                             
                 </div>
