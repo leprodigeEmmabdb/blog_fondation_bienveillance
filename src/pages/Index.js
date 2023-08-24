@@ -1,13 +1,15 @@
-import Header from '../components/Header'
 import Carousel1 from '../assets/images/carousel1.jpg'
 import Carousel2 from '../assets/images/carousel2.jpg'
 import Carousel3 from '../assets/images/carousel3.jpg'
 import {Carousel} from 'react-bootstrap';
+import Square from '../components/Square';
+
+
 const Index = () => {
     return (
         <div>
             <div className="banner">
-                <Carousel interval={2000}>
+                <Carousel interval={3000}>
                     <Carousel.Item>
                         <img className="d-block w-100 image-blur "
                             style={
@@ -61,6 +63,22 @@ const Index = () => {
                     </Carousel.Item>
                 </Carousel>
 
+            </div>
+            <div className="container">
+                <div className='h3 mb-4 text-center d-flex flex-column justify-content-center align-items-center text-secondary py-3 mt-3'>
+                    Pourquoi Bienveillance?
+                    <div class="soulignement-animation"></div>
+                </div>
+                <div className='mx-4 container row '>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima veniam rerum hic, eveniet porro cupiditate cum corrupti repudiandae sit culpa molestiae nobis consequuntur magni, quia doloremque quaerat excepturi ab! Doloremque.</p>
+                        <Square content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil et accusantium tempore voluptatum temporibus praesentium ipsum fuga" style="col-lg-4" id="img1"
+                            url={Carousel2}/>
+                        <Square content="Deleniti assumenda ullam! Corrupti nulla eum nemo obcaecati blanditiis quibusdam inventore, explicabo omnis." style="col-lg-4" id="img2"
+                            url={Carousel1}/>
+                        <Square content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, illo dignissimos. Consequuntur?" style="col-lg-4" id="img3"
+                            url={Carousel3}/>
+                            
+                </div>
             </div>
         </div>
     );
