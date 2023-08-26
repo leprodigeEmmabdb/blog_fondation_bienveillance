@@ -3,7 +3,7 @@ import Carousel2 from '../assets/images/carousel2.jpg'
 import Carousel3 from '../assets/images/carousel3.jpg'
 import {Carousel} from 'react-bootstrap';
 import Square from '../components/Square';
-
+import CountdownTimer from '../components/CountDownTimer';
 
 const Index = () => {
     return (
@@ -64,22 +64,24 @@ const Index = () => {
                 </Carousel>
 
             </div>
-            <div className="container">
+            <div className="container overflow-x-hidden">
                 <div className='h3 mb-4 text-center d-flex flex-column justify-content-center align-items-center text-secondary py-3 mt-3'>
                     Pourquoi Bienveillance?
                     <div class="soulignement-animation"></div>
                 </div>
-                <div className='mx-4 container row '>
+                <div className=' row '>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima veniam rerum hic, eveniet porro cupiditate cum corrupti repudiandae sit culpa molestiae nobis consequuntur magni, quia doloremque quaerat excepturi ab! Doloremque.</p>
-                        <Square content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil et accusantium tempore voluptatum temporibus praesentium ipsum fuga" id="img1"
-                            url={Carousel2}/>
-                        <Square content="Deleniti assumenda ullam! Corrupti nulla eum nemo obcaecati blanditiis quibusdam inventore, explicabo omnis." id="img2"
-                            url={Carousel1}/>
-                        <Square content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, illo dignissimos. Consequuntur?"  id="img3"
-                            url={Carousel3}/>
-                            
+                    <Square content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil et accusantium tempore voluptatum temporibus praesentium ipsum fuga" id="img1"
+                        url={Carousel2}/>
+                    <Square content="Deleniti assumenda ullam! Corrupti nulla eum nemo obcaecati blanditiis quibusdam inventore, explicabo omnis." id="img2"
+                        url={Carousel1}/>
+                    <Square content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, illo dignissimos. Consequuntur?" id="img3"
+                        url={Carousel3}/>
+
                 </div>
             </div>
+                {/* <CountdownTimer/> */}
+
         </div>
     );
 }
